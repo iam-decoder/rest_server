@@ -187,3 +187,12 @@ public function someMethod(){
   $this->response($data, 100); //outputs the formatted data and terminates the request
 }
 ```
+## Changelog
+### _v1.0.1_
+* General
+  * Changed license from GNU LGPL v2.1 to GNU GPL v3
+  * Added license headers to all files
+* Bug Fixes
+  * Fixed CSV responses
+### _v1.0.0_
+> Initial upload
