@@ -1,1 +1,15 @@
+# This work is licensed under the Creative Commons GNU GPL v3 License.
+#
+# Source:  https://github.com/iam-decoder/rest_server
+# License: http://www.gnu.org/licenses/gpl.html
+# Version: 1.0.1
+# Author:  Travis J. Neal
+# Web:     https://github.com/iam-decoder
+#
+# A Plug-and-play REST Controller with CORS support meant to fit in
+# most PHP implemented servers.
+#
+# This file is only necessary for the developer of the REST_Server,
+# feel free to remove this after cloning your repository
+
 nbproject/
