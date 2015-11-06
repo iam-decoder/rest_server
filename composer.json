@@ -1,0 +1,13 @@
+{
+    "name": "iam-decoder/rest_server",
+    "version": "1.0.1",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/iam-decoder/rest_server"
+        }
+    ],
+    "require": {
+        "iam-decoder/rest_server": "master"
+    }
+}
