@@ -1,6 +1,9 @@
 # REST_Server
+
 → Author: Travis Neal
+
 → License: LGPL 2.1
+
 → Web: [https://github.com/iam-decoder](https://github.com/iam-decoder)
 
 ## About
