@@ -2,17 +2,21 @@
 
 → Author: Travis Neal
 
-→ License: LGPL 2.1
+→ License: [GNU GPL v3](http://www.gnu.org/licenses/gpl.html)
 
 → Web: [https://github.com/iam-decoder](https://github.com/iam-decoder)
 
 ## About
-REST Server implementation with CORS support to streamline API creation.
+A Plug-and-play REST Controller with CORS support meant to fit in most PHP implemented servers.
 
 This is a plug-and-play library meant to fit most web applications utilizing PHP as the server-sided scripting language. However, for best results, the use of an Apache-based server is desired. If you plan to use this library on a non-apache-based server, please replace values being returned to the `_request` property branching off of the `_init` method with your server's version of the variables (or use your own clever way to get the necessary result).
 
 ## Usage
-Extend a class that you want the REST_Server to officiate, in
+* Copy the file `/src/REST_Server.php` to your application
+* Include the file prior to calling the REST_Server class (`require_once`)
+* Extend a class/controller that you want the REST_Server to officiate
+
+#### _→ example_
 ```php
 /*
  * For servers using full classes as endpoints

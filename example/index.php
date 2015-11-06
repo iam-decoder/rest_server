@@ -1,7 +1,24 @@
+<?php
+/*
+ * This work is licensed under the Creative Commons GNU GPL v3 License.
+ * 
+ * Source:  https://github.com/iam-decoder/rest_server
+ * License: http://www.gnu.org/licenses/gpl.html
+ * Version: 1.0.1
+ * Author:  Travis J. Neal
+ * Web:     https://github.com/iam-decoder
+ * 
+ * A Plug-and-play REST Controller with CORS support meant to fit in
+ * most PHP implemented servers.
+ * 
+ * This is simply a test page to send fake requests to the REST server,
+ * and is not necessary for the REST_Server class to work properly.
+ * 
+ */
+?>
 <!DOCTYPE html>
 <?php
-//Just a very simple test page, testing the different kinds of requests and data types being sent.
-$endpoint = '/api';
+$endpoint = '/example/api';
 $methods = array(
     array(
         'type' => 'get',

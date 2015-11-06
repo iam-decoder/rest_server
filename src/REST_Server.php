@@ -1,26 +1,24 @@
 <?php
 
 /*
- * This work is licensed under Creative Commons GNU LGPL License.
+ * This work is licensed under the Creative Commons GNU GPL v3 License.
  * 
  * Source:  https://github.com/iam-decoder/rest_server
- * License: http://creativecommons.org/licenses/LGPL/2.1/
- * Version: 1.0
+ * License: http://www.gnu.org/licenses/gpl.html
+ * Version: 1.0.1
  * Author:  Travis J. Neal
  * Web:     https://github.com/iam-decoder
  * 
- * REST Server implementation with CORS support to streamline API
- * creation.
+ * A Plug-and-play REST Controller with CORS support meant to fit in
+ * most PHP implemented servers.
  * 
- * This is a plug-and-play library meant to fit most web applications.
+ * This is a plug-and-play library meant to fit most web applications. 
  * However, for best results the use of an Apache-based server is
  * desired. If you plan to use this library on a non-apache-based
  * server, please replace values being returned to the _request
  * property branching off of the _init method with your server's
  * version of the variables (or use your own clever way to get the
  * necessary result).
- * 
- * Author: Travis Neal
  * 
  */
 
@@ -430,7 +428,9 @@ class Format_Translator {
             }
             $result = '"'.implode('","', $headings).'"'.PHP_EOL;
             foreach($data as &$row){
-                if(is_array($row)) return false; //csv's don't allow multi-dimensional arrays
+                foreach($row as $test){
+                    if(is_array($test)) return false; //csv's don't allow multi-dimensional arrays
+                }
                 $row = str_replace('"', '""', $row); // Escape double quotes per RFC 4180
                 $result .= '"'.implode('","', $row).'"'.PHP_EOL;
             }

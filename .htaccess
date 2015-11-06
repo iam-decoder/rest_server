@@ -1,3 +1,17 @@
+ # This work is licensed under the Creative Commons GNU GPL v3 License.
+ #
+ # Source:  https://github.com/iam-decoder/rest_server
+ # License: http://www.gnu.org/licenses/gpl.html
+ # Version: 1.0.1
+ # Author:  Travis J. Neal
+ # Web:     https://github.com/iam-decoder
+ #
+ # A Plug-and-play REST Controller with CORS support meant to fit in
+ # most PHP implemented servers.
+ #
+ # This is a simple .htaccess file meant to remove the need for '.php'
+ # and remove accidental double slashes like '//' in the URL address.
+
 Options -Indexes +FollowSymLinks +MultiViews
 
 <IfModule mod_rewrite.c>
