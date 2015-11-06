@@ -194,5 +194,6 @@ public function someMethod(){
   * Added license headers to all files
 * Bug Fixes
   * Fixed CSV responses
+
 ### _v1.0.0_
 > Initial upload
