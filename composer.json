@@ -8,6 +8,6 @@
         }
     ],
     "require": {
-        "iam-decoder/rest_server": "master"
+        "iam-decoder/rest_server": "dev-master"
     }
 }
