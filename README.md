@@ -192,6 +192,7 @@ public function someMethod(){
 * General
   * Changed license from GNU LGPL v2.1 to GNU GPL v3
   * Added license headers to all files
+  * Available in composer
 * Bug Fixes
   * Fixed CSV responses
 
