@@ -184,16 +184,16 @@ Accepts 0 to 3 parameters:
 ```php
 public function someMethod(){
   $data = array("name" => "Travis Neal");
-  $this->response($data, 100); //outputs the formatted data and terminates the request
+  $this->response($data, 100); //outputs the formatted data and terminates the request with an HTTP status of '100 Continue'
 }
 ```
 ## Changelog
-### _v1.0.1_
+##### _v1.0.1_
 * General
   * Changed license from GNU LGPL v2.1 to GNU GPL v3
   * Added license headers to all files
 * Bug Fixes
   * Fixed CSV responses
 
-### _v1.0.0_
+##### _v1.0.0_
 > Initial upload
